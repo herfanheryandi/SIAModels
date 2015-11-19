@@ -1,5 +1,7 @@
 package id.ac.unpar.siamodels.matakuliah;
 
+import java.util.List;
+
 import id.ac.unpar.siamodels.Mahasiswa;
 import id.ac.unpar.siamodels.MataKuliah;
 import id.ac.unpar.siamodels.matakuliah.interfaces.HasPrasyarat;
@@ -17,5 +19,5 @@ public class AIF403 implements HasPrasyarat, Wajib {
       		}
       		return true;
       	}
-
+      	
 }
